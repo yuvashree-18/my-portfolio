@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="50%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60a5fa" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+    <linearGradient id="coatGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="400" height="400" rx="40" fill="url(#bgGrad)" />
+
+  <!-- Subtle Tech Grid Lines -->
+  <path d="M 0,100 L 400,100 M 0,200 L 400,200 M 0,300 L 400,300 M 100,0 L 100,400 M 200,0 L 200,400 M 300,0 L 300,400" stroke="rgba(255,255,255,0.04)" stroke-width="1" />
+
+  <!-- Outer Glowing Ring -->
+  <circle cx="200" cy="185" r="140" fill="none" stroke="url(#borderGrad)" stroke-width="4" filter="url(#glow)" opacity="0.6" />
+  <circle cx="200" cy="185" r="135" fill="none" stroke="url(#borderGrad)" stroke-width="2" />
+
+  <!-- Decorative Network Nodes around Circle -->
+  <circle cx="95" cy="110" r="5" fill="#38bdf8" />
+  <line x1="95" y1="110" x2="135" y2="140" stroke="rgba(56,189,248,0.4)" stroke-width="1.5" stroke-dasharray="3,3" />
+
+  <circle cx="305" cy="110" r="5" fill="#a855f7" />
+  <line x1="305" y1="110" x2="265" y2="140" stroke="rgba(168,85,247,0.4)" stroke-width="1.5" stroke-dasharray="3,3" />
+
+  <circle cx="70" cy="220" r="4" fill="#34d399" />
+  <circle cx="330" cy="220" r="4" fill="#38bdf8" />
+
+  <!-- Inner Background Circle -->
+  <circle cx="200" cy="185" r="130" fill="#0b1120" />
+
+  <!-- Stylized Professional Silhouette -->
+  <!-- Shoulders / Blazer -->
+  <path d="M 100,315 Q 140,250 200,250 Q 260,250 300,315 C 280,320 120,320 100,315 Z" fill="url(#coatGrad)" stroke="rgba(255,255,255,0.1)" stroke-width="1.5" />
+  <!-- Inner Collar / Shirt -->
+  <path d="M 175,250 L 200,285 L 225,250 Z" fill="#ffffff" opacity="0.9" />
+  <path d="M 197,270 L 200,315 L 203,270 Z" fill="#3b82f6" />
+
+  <!-- Neck -->
+  <rect x="185" y="200" width="30" height="55" rx="8" fill="#e2e8f0" />
+
+  <!-- Head / Hair -->
+  <circle cx="200" cy="165" r="48" fill="#e2e8f0" />
+  <!-- Modern Professional Hair Shape -->
+  <path d="M 150,165 C 148,115 252,115 250,165 C 250,140 235,130 200,130 C 165,130 150,140 150,165 Z" fill="#1e293b" />
+  <path d="M 152,165 Q 165,150 190,150 Q 220,150 248,165 Q 252,190 248,205 Q 240,175 235,170 Q 200,165 165,170 Q 155,185 152,165 Z" fill="#0f172a" />
+
+  <!-- Face Tech Accent - Subtle Audio / Comm Headset (Networking/Ops style) -->
+  <path d="M 152,165 C 145,160 145,180 152,185" fill="none" stroke="#3b82f6" stroke-width="3" stroke-linecap="round" />
+  <path d="M 150,180 Q 170,205 185,200" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" />
+  <circle cx="187" cy="200" r="3" fill="#10b981" />
+
+  <!-- Professional Badge Overprint -->
+  <g transform="translate(140, 340)">
+    <rect width="120" height="30" rx="15" fill="url(#borderGrad)" />
+    <text x="60" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="1">YUVASHREE G</text>
+  </g>
+</svg>

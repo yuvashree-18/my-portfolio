@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGroc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b" />
+      <stop offset="100%" stop-color="#065f46" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="380" rx="16" fill="#0b1322" />
+
+  <!-- App Window -->
+  <g transform="translate(25, 20)">
+    <rect width="550" height="340" rx="12" fill="#0f172a" stroke="#1e293b" stroke-width="2" />
+    
+    <!-- E-Commerce Navbar -->
+    <rect width="550" height="45" rx="12" fill="#064e3b" />
+    <circle cx="20" cy="22" r="5" fill="#ef4444" />
+    <circle cx="35" cy="22" r="5" fill="#f59e0b" />
+    <circle cx="50" cy="22" r="5" fill="#10b981" />
+    <text x="75" y="27" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="800" fill="#ffffff">FreshMart &bull; Organic Grocery Online</text>
+    
+    <!-- Search Bar in Store -->
+    <rect x="320" y="10" width="140" height="25" rx="12" fill="rgba(255,255,255,0.15)" />
+    <text x="332" y="27" font-family="sans-serif" font-size="9" fill="#e2e8f0">🔍 Search fruits, veggies...</text>
+    <rect x="475" y="10" width="60" height="25" rx="6" fill="#10b981" />
+    <text x="484" y="27" font-family="sans-serif" font-size="10" font-weight="700" fill="#ffffff">🛒 Cart (3)</text>
+
+    <!-- Category Ribbon -->
+    <g transform="translate(15, 55)">
+      <rect x="0" y="0" width="65" height="24" rx="12" fill="#10b981" />
+      <text x="14" y="16" font-family="sans-serif" font-size="9" font-weight="700" fill="#ffffff">All Items</text>
+
+      <rect x="75" y="0" width="70" height="24" rx="12" fill="#1e293b" />
+      <text x="88" y="16" font-family="sans-serif" font-size="9" fill="#cbd5e1">🥦 Vegetables</text>
+
+      <rect x="155" y="0" width="65" height="24" rx="12" fill="#1e293b" />
+      <text x="168" y="16" font-family="sans-serif" font-size="9" fill="#cbd5e1">🍎 Fruits</text>
+
+      <rect x="230" y="0" width="65" height="24" rx="12" fill="#1e293b" />
+      <text x="242" y="16" font-family="sans-serif" font-size="9" fill="#cbd5e1">🥛 Dairy</text>
+
+      <rect x="305" y="0" width="70" height="24" rx="12" fill="#1e293b" />
+      <text x="318" y="16" font-family="sans-serif" font-size="9" fill="#cbd5e1">🍞 Bakery</text>
+
+      <text x="430" y="16" font-family="'JetBrains Mono', monospace" font-size="9" fill="#34d399">Python Backend API Active</text>
+    </g>
+
+    <!-- Product Grid -->
+    <g transform="translate(15, 90)">
+      <!-- Item 1 -->
+      <g transform="translate(0, 0)">
+        <rect width="120" height="180" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <rect x="10" y="10" width="100" height="85" rx="6" fill="#0f172a" />
+        <circle cx="60" cy="52" r="24" fill="#ef4444" opacity="0.3" />
+        <text x="50" y="58" font-size="22">🍎</text>
+        <text x="12" y="112" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#f8fafc">Fresh Apples</text>
+        <text x="12" y="125" font-family="sans-serif" font-size="8" fill="#94a3b8">1 kg &bull; Organic</text>
+        <text x="12" y="145" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="800" fill="#10b981">₹140</text>
+        <rect x="10" y="152" width="100" height="20" rx="4" fill="#10b981" />
+        <text x="36" y="166" font-family="sans-serif" font-size="8.5" font-weight="700" fill="#fff">+ Add to Cart</text>
+      </g>
+
+      <!-- Item 2 -->
+      <g transform="translate(132, 0)">
+        <rect width="120" height="180" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <rect x="10" y="10" width="100" height="85" rx="6" fill="#0f172a" />
+        <circle cx="60" cy="52" r="24" fill="#10b981" opacity="0.3" />
+        <text x="50" y="58" font-size="22">🥦</text>
+        <text x="12" y="112" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#f8fafc">Broccoli Bunch</text>
+        <text x="12" y="125" font-family="sans-serif" font-size="8" fill="#94a3b8">500 g &bull; Farm Fresh</text>
+        <text x="12" y="145" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="800" fill="#10b981">₹75</text>
+        <rect x="10" y="152" width="100" height="20" rx="4" fill="#10b981" />
+        <text x="36" y="166" font-family="sans-serif" font-size="8.5" font-weight="700" fill="#fff">+ Add to Cart</text>
+      </g>
+
+      <!-- Item 3 -->
+      <g transform="translate(264, 0)">
+        <rect width="120" height="180" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <rect x="10" y="10" width="100" height="85" rx="6" fill="#0f172a" />
+        <circle cx="60" cy="52" r="24" fill="#f59e0b" opacity="0.3" />
+        <text x="50" y="58" font-size="22">🥛</text>
+        <text x="12" y="112" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#f8fafc">Fresh Dairy Milk</text>
+        <text x="12" y="125" font-family="sans-serif" font-size="8" fill="#94a3b8">1 Litre &bull; Pure</text>
+        <text x="12" y="145" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="800" fill="#10b981">₹45</text>
+        <rect x="10" y="152" width="100" height="20" rx="4" fill="#10b981" />
+        <text x="36" y="166" font-family="sans-serif" font-size="8.5" font-weight="700" fill="#fff">+ Add to Cart</text>
+      </g>
+
+      <!-- Item 4 -->
+      <g transform="translate(396, 0)">
+        <rect width="120" height="180" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <rect x="10" y="10" width="100" height="85" rx="6" fill="#0f172a" />
+        <circle cx="60" cy="52" r="24" fill="#f97316" opacity="0.3" />
+        <text x="50" y="58" font-size="22">🍞</text>
+        <text x="12" y="112" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#f8fafc">Whole Wheat Bread</text>
+        <text x="12" y="125" font-family="sans-serif" font-size="8" fill="#94a3b8">400 g &bull; Fresh Baked</text>
+        <text x="12" y="145" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="800" fill="#10b981">₹50</text>
+        <rect x="10" y="152" width="100" height="20" rx="4" fill="#10b981" />
+        <text x="36" y="166" font-family="sans-serif" font-size="8.5" font-weight="700" fill="#fff">+ Add to Cart</text>
+      </g>
+    </g>
+
+    <!-- Bottom Promo Banner -->
+    <g transform="translate(15, 285)">
+      <rect width="520" height="38" rx="6" fill="#064e3b" stroke="#10b981" stroke-width="1" />
+      <text x="15" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#ffffff">🎉 FAST DELIVERY: Free Express Dispatch on orders above ₹499 in Chennai</text>
+      <rect x="420" y="8" width="85" height="22" rx="4" fill="#10b981" />
+      <text x="432" y="23" font-family="sans-serif" font-size="9" font-weight="700" fill="#ffffff">Claim Offer</text>
+    </g>
+  </g>
+</svg>

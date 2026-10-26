@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgLegal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="380" rx="16" fill="url(#bgLegal)" />
+
+  <!-- App Window -->
+  <g transform="translate(25, 20)">
+    <rect width="550" height="340" rx="12" fill="#0b1120" stroke="#334155" stroke-width="2" />
+    <!-- Window Header -->
+    <rect width="550" height="38" rx="12" fill="#131e36" />
+    <circle cx="20" cy="19" r="5" fill="#ef4444" />
+    <circle cx="35" cy="19" r="5" fill="#f59e0b" />
+    <circle cx="50" cy="19" r="5" fill="#10b981" />
+    <text x="75" y="23" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#f8fafc">AI Legal Document Analyzer &bull; Document Review Portal</text>
+    <rect x="420" y="8" width="115" height="22" rx="4" fill="#3b82f6" />
+    <text x="432" y="22" font-family="sans-serif" font-size="10" font-weight="600" fill="#ffffff">📄 Upload New File</text>
+
+    <!-- Main Workspace Split: Left (Document Viewer) & Right (Analysis Sidebar) -->
+    <g transform="translate(15, 50)">
+      <!-- Left: Legal Document Viewer -->
+      <g>
+        <rect width="330" height="275" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
+        <rect x="15" y="14" width="300" height="24" rx="4" fill="#1e293b" />
+        <text x="25" y="30" font-family="'JetBrains Mono', monospace" font-size="10" fill="#38bdf8">NON-DISCLOSURE_AGREEMENT_2026.pdf</text>
+        
+        <!-- Text Lines with clause highlighting -->
+        <g transform="translate(15, 50)">
+          <!-- Paragraph 1 -->
+          <rect x="0" y="0" width="280" height="8" rx="2" fill="#64748b" opacity="0.6" />
+          <rect x="0" y="14" width="295" height="8" rx="2" fill="#64748b" opacity="0.6" />
+          <rect x="0" y="28" width="220" height="8" rx="2" fill="#64748b" opacity="0.6" />
+
+          <!-- Clause 1 (Highlighted in Yellow/Amber) -->
+          <rect x="-4" y="44" width="308" height="34" rx="4" fill="rgba(245,158,11,0.15)" stroke="#f59e0b" stroke-width="1" />
+          <text x="4" y="56" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="600" fill="#fbbf24">§ 3.2 Non-Compete &amp; Exclusivity Period</text>
+          <text x="4" y="70" font-family="sans-serif" font-size="8" fill="#e2e8f0">The Receiving Party shall not engage in competitive ventures for 24 months...</text>
+
+          <!-- Paragraph 2 -->
+          <rect x="0" y="90" width="290" height="8" rx="2" fill="#64748b" opacity="0.6" />
+          <rect x="0" y="104" width="270" height="8" rx="2" fill="#64748b" opacity="0.6" />
+          <rect x="0" y="118" width="240" height="8" rx="2" fill="#64748b" opacity="0.6" />
+
+          <!-- Clause 2 (Highlighted in Cyan/Blue) -->
+          <rect x="-4" y="136" width="308" height="34" rx="4" fill="rgba(56,189,248,0.15)" stroke="#38bdf8" stroke-width="1" />
+          <text x="4" y="148" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="600" fill="#38bdf8">§ 7.1 Governing Law &amp; Jurisdiction</text>
+          <text x="4" y="162" font-family="sans-serif" font-size="8" fill="#e2e8f0">All disputes arising shall be resolved under the jurisdiction of Chennai courts...</text>
+
+          <!-- Paragraph 3 -->
+          <rect x="0" y="182" width="290" height="8" rx="2" fill="#64748b" opacity="0.6" />
+          <rect x="0" y="196" width="180" height="8" rx="2" fill="#64748b" opacity="0.6" />
+        </g>
+      </g>
+
+      <!-- Right: AI Analysis Panel -->
+      <g transform="translate(345, 0)">
+        <rect width="175" height="275" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
+        <text x="12" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#f8fafc">Key Clauses &amp; Summary</text>
+        
+        <!-- Summary Box 1 -->
+        <g transform="translate(10, 36)">
+          <rect width="155" height="65" rx="6" fill="#1e293b" stroke="rgba(245,158,11,0.4)" stroke-width="1" />
+          <text x="10" y="18" font-family="sans-serif" font-size="9" font-weight="700" fill="#fbbf24">⚠️ High Liability Risk</text>
+          <text x="10" y="32" font-family="sans-serif" font-size="8" fill="#cbd5e1">24-month duration exceeds standard industry average of 12 months.</text>
+          <text x="10" y="52" font-family="'JetBrains Mono', monospace" font-size="8" fill="#94a3b8">Confidence: 96%</text>
+        </g>
+
+        <!-- Summary Box 2 -->
+        <g transform="translate(10, 110)">
+          <rect width="155" height="65" rx="6" fill="#1e293b" stroke="rgba(56,189,248,0.4)" stroke-width="1" />
+          <text x="10" y="18" font-family="sans-serif" font-size="9" font-weight="700" fill="#38bdf8">✓ Standard Jurisdiction</text>
+          <text x="10" y="32" font-family="sans-serif" font-size="8" fill="#cbd5e1">Valid local court provisions aligned with regional contract norms.</text>
+          <text x="10" y="52" font-family="'JetBrains Mono', monospace" font-size="8" fill="#94a3b8">Confidence: 99%</text>
+        </g>
+
+        <!-- Export Action -->
+        <g transform="translate(10, 185)">
+          <rect width="155" height="28" rx="6" fill="#8b5cf6" />
+          <text x="32" y="20" font-family="sans-serif" font-size="9" font-weight="600" fill="#ffffff">Export Analysis Report</text>
+        </g>
+        <g transform="translate(10, 222)">
+          <rect width="155" height="28" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1" />
+          <text x="36" y="20" font-family="sans-serif" font-size="9" font-weight="600" fill="#94a3b8">Compare Clauses</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
